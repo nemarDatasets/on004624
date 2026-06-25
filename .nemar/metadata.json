@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004624",
-  "source": "openneuro",
-  "source_id": "ds004624",
+  "pipeline_stage": "validated",
   "title": "Intracranial recordings using BCI2000 and the CorTec BrainInterchange",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "F. Mivalt": {},
     "F. Lampert": {},
@@ -17,28 +17,66 @@
     "G.A. Worrell": {},
     "K. J. Miller": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004624.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004624",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004624",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "Brain Imaging Data Structure Specification v1.8.0",
-  "recording_modality": [
-    "anat",
-    "ieeg"
-  ],
-  "datatypes": [
-    "anat",
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH U01NS128612"
+      "funder_name": "NIH",
+      "award_number": "U01NS128612"
     }
-  ]
+  ],
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".tdat",
+    ".tidx",
+    ".tmet",
+    ".tsv"
+  ],
+  "description": "This dataset comprises intracranial electrophysiological recordings collected using BCI2000 software and the CorTec BrainInterchange device. The study establishes an integrated ecosystem of technologies and protocols for adaptive neuromodulation research in human subjects, combining invasive neural recording with brain-computer interface capabilities.",
+  "keywords": [
+    {
+      "term": "intracranial recordings"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "neuromodulation"
+    },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "BCI2000"
+    },
+    {
+      "term": "neural signal processing"
+    }
+  ],
+  "source_hash": "12470447b239856bb16015a3d560451ae3c2a2638bdd54b6e4a062bd18307270"
 }
