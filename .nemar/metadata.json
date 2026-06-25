@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Intracranial recordings using BCI2000 and the CorTec BrainInterchange",
-  "description": "This dataset comprises intracranial electrophysiological recordings collected using BCI2000 software and the CorTec BrainInterchange device. The study establishes an integrated ecosystem of technologies and protocols for adaptive neuromodulation research in human subjects, combining invasive neural recordings with brain-computer interface capabilities.",
+  "description": "This dataset comprises intracranial electrophysiological recordings acquired using BCI2000 software and the CorTec BrainInterchange device. The study establishes an integrated ecosystem of technologies and protocols for adaptive neuromodulation research in human subjects, combining invasive neural recordings with brain-computer interface capabilities.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -35,7 +35,7 @@
       "term": "BCI2000"
     },
     {
-      "term": "neural signal processing"
+      "term": "CorTec BrainInterchange"
     }
   ],
   "related_identifiers": [
