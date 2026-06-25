@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Intracranial recordings using BCI2000 and the CorTec BrainInterchange",
+  "description": "This dataset comprises intracranial electrophysiological recordings collected using BCI2000 software and the CorTec BrainInterchange device. The study establishes an integrated ecosystem of technologies and protocols for adaptive neuromodulation research in human subjects, combining invasive neural recordings with brain-computer interface capabilities.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,12 +18,27 @@
     "G.A. Worrell": {},
     "K. J. Miller": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004624.v2.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial recordings"
     },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "neuromodulation"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "BCI2000"
+    },
+    {
+      "term": "neural signal processing"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004624",
       "identifier_type": "URL",
@@ -32,6 +48,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004624",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004624.v2.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -40,12 +61,12 @@
       "award_number": "U01NS128612"
     }
   ],
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "20.7 GB (65064 files)"
   ],
   "formats": [
     ".json",
@@ -53,30 +74,8 @@
     ".tdat",
     ".tidx",
     ".tmet",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises intracranial electrophysiological recordings collected using BCI2000 software and the CorTec BrainInterchange device. The study establishes an integrated ecosystem of technologies and protocols for adaptive neuromodulation research in human subjects, combining invasive neural recording with brain-computer interface capabilities.",
-  "keywords": [
-    {
-      "term": "intracranial recordings"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "neuromodulation"
-    },
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "BCI2000"
-    },
-    {
-      "term": "neural signal processing"
-    }
-  ],
-  "source_hash": "12470447b239856bb16015a3d560451ae3c2a2638bdd54b6e4a062bd18307270"
+  "source_hash": "2977c4f8e793a0987721a8bad4bb55f1bac093544dde1ea667e1757ecc9ec505"
 }
