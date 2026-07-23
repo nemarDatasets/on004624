@@ -1,0 +1,25 @@
+{
+  "dataset_id": "on004624",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:02:42.193Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds004624"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 65062,
+    "files_declared": 65063,
+    "bytes_present": 20738617820,
+    "bytes_declared": 20739059738,
+    "pct_bytes": 0.999978691512268
+  },
+  "missing": [
+    {
+      "path": "sub-c04/ses-Intraopdata/ieeg/sub-c04_ses-Intraopdata_task-rec_acq-rec_run-8_ieeg.mefd/CH7.timd/CH7-000000.segd/tmphd1rkvy8",
+      "key": "SHA256E-s6488064--7e9f3d6681e96dc26ff28eff1c373ae81ae83afec48da335125774a910235f6c",
+      "declared_size": 6488064,
+      "reason": "absent"
+    }
+  ]
+}
