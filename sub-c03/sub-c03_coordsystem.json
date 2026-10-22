@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Frame not documented for this subject. The deposit has no coordinate-system file for sub-c03, and no c03-specific source (deposit file, surface or paper) states the frame of this subject's electrodes.tsv. sub-c02 and sub-c04 of this deposit declare ACPC; this subject may use the same frame, but that is not confirmed. No anatomical image or surface is associated (no IntendedFor). Units: mm is inferred, not documented: the spread of the contact positions is physically plausible only in millimetres (not in metres or centimetres)."
+}
